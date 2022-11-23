@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Consignado.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Consignado.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Consignado.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Consignado.Core/1.0.0": {
+      "type": "project",
+      "path": "../Consignado.Core/Consignado.Core.csproj",
+      "msbuildProject": "../Consignado.Core/Consignado.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Consignado.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\diego\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\diego\\Desktop\\TesteDev\\ConsignadoAPI\\Consignado.Infra\\Consignado.Infra.csproj",
+      "projectName": "Consignado.Infra",
+      "projectPath": "C:\\Users\\diego\\Desktop\\TesteDev\\ConsignadoAPI\\Consignado.Infra\\Consignado.Infra.csproj",
+      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\diego\\Desktop\\TesteDev\\ConsignadoAPI\\Consignado.Infra\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\diego\\Desktop\\TesteDev\\ConsignadoAPI\\Consignado.Core\\Consignado.Core.csproj": {
+              "projectPath": "C:\\Users\\diego\\Desktop\\TesteDev\\ConsignadoAPI\\Consignado.Core\\Consignado.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

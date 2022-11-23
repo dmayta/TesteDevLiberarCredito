@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Consignado.Application/1.0.0": {
+        "dependencies": {
+          "Consignado.Core": "1.0.0",
+          "Consignado.Infra": "1.0.0"
+        },
+        "runtime": {
+          "Consignado.Application.dll": {}
+        }
+      },
+      "Consignado.Core/1.0.0": {
+        "runtime": {
+          "Consignado.Core.dll": {}
+        }
+      },
+      "Consignado.Infra/1.0.0": {
+        "dependencies": {
+          "Consignado.Core": "1.0.0"
+        },
+        "runtime": {
+          "Consignado.Infra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Consignado.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Consignado.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Consignado.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
